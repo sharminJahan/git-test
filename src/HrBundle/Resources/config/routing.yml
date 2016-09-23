@@ -1,0 +1,3 @@
+hr_homepage:
+    path:     /
+    defaults: { _controller: HrBundle:Default:index }

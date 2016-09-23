@@ -1,0 +1,23 @@
+AttendanceRegBundle\Entity\Attendance:
+    type: entity
+    table: attendance
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        attendanceDatetime:
+            column: attendance_datetime
+            type: datetime
+        attendanceType:
+            column: attendance_type
+            type: string
+            length: 255
+        importDate:
+            column: import_date
+            type: datetime
+    manyToOne:
+        employeeId:
+            targetEntity: AttendanceRegBundle\Entity\Employee
+            joinColumn:
+                name: employee_id

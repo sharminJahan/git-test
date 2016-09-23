@@ -1,0 +1,11 @@
+hr:
+    resource: "@HrBundle/Resources/config/routing.yml"
+    prefix:   /
+
+attendance_reg:
+    resource: "@AttendanceRegBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

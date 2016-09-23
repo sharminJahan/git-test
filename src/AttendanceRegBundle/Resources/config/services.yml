@@ -1,0 +1,4 @@
+services:
+#    attendance_reg.example:
+#        class: AttendanceRegBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

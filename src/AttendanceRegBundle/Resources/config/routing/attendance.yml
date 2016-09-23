@@ -1,0 +1,3 @@
+attendance_form_submit:
+    path:     /attendance_form_submit
+    defaults: { _controller: "AttendanceRegBundle:Attendance:attendanceReportFormSubmit" }

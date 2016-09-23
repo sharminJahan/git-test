@@ -1,0 +1,39 @@
+AttendanceRegBundle\Entity\Employee:
+    type: entity
+    table: employee
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        attendanceMachineEmployeeId:
+            column: attendance_machine_employee_id
+            type: integer
+        employeeId:
+            column: employee_id
+            type: string
+            length: 255
+        employeeName:
+            column: employee_name
+            type: string
+            length: 255
+        address:
+            type: text
+            nullable: true
+        mobile:
+            type: string
+            length: 255
+        phone:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        createdAt:
+            column: created_at
+            type: datetime
+        updatedAt:
+            column: updated_at
+            type: datetime
+            nullable: true
+    

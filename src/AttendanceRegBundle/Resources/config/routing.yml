@@ -1,0 +1,10 @@
+attendance_reg_employee:
+    resource: "@AttendanceRegBundle/Resources/config/routing/employee.yml"
+    prefix:   /employee
+attendance_reg_attendance:
+    resource: "@AttendanceRegBundle/Resources/config/routing/attendance.yml"
+    prefix:   /attendance
+
+attendance_reg_homepage:
+    path:     /
+    defaults: { _controller: AttendanceRegBundle:Default:index }
