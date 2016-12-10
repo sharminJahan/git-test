@@ -21,17 +21,17 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Doctrine\ORM\Query;
 
+
 /**
  * Class AttendanceController
- * @package Eit\Bundle\HrBundle\Controller
+ * @package AttendanceRegBundle\Controller
  */
 class AttendanceController extends Controller
 {
 
-
     public function attendanceReportFormSubmitAction()
     {
-
+            dump('hello');exit;
     }
 
 

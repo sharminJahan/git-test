@@ -17,6 +17,7 @@
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
       <parameter key="AppBundle">AppBundle\AppBundle</parameter>
       <parameter key="AttendanceRegBundle">AttendanceRegBundle\AttendanceRegBundle</parameter>
+      <parameter key="HrBundle">HrBundle\HrBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -1463,7 +1464,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>56868c03c02a03.65416167</argument>
+            <argument>584c5257911ba8.79370984</argument>
           </service>
         </argument>
       </argument>
@@ -1592,7 +1593,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>56868c03c02a03.65416167</argument>
+            <argument>584c5257911ba8.79370984</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2414,6 +2415,10 @@
       <call method="addPath">
         <argument>/var/www/my_project/src/AttendanceRegBundle/Resources/views</argument>
         <argument>AttendanceReg</argument>
+      </call>
+      <call method="addPath">
+        <argument>/var/www/my_project/src/HrBundle/Resources/views</argument>
+        <argument>Hr</argument>
       </call>
       <call method="addPath">
         <argument>/var/www/my_project/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>

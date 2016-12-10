@@ -4,7 +4,7 @@ hr:
 
 attendance_reg:
     resource: "@AttendanceRegBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /attendance
 
 app:
     resource: "@AppBundle/Controller/"
