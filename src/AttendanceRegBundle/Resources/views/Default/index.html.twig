@@ -1,14 +1,15 @@
 {% extends '::base.html.twig' %}
 {% block angular_app %}ng-app="myApp"{% endblock %}
 
-{% block content %}
-    kkk
-<body ng-app="myApp">
-<div class="main" ng-controller="MainController">
-<h1>{{ title }}</h1>
-</div>
-</body>
-{% endblock %}
+ {% block body %}
+     <body ng-app="myApp">
+ <div class="main" ng-controller="MainController">
+     <h1>{{ title }}</h1>
+ </div>
+     </body>{% endblock %}
+    {#kkk#}
+
+{#{% endblock %}#}
 {% block javascripts %}
     <script src="{{asset('assets/js/angular/order_controller.js')}}"></script>
     <script>
