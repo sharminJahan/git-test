@@ -4,7 +4,7 @@
  {% block body %}
      <body ng-app="myApp">
  <div class="main" ng-controller="MainController">
-     <h1>{{ title }}</h1>
+     {#<h1>{{ title }}</h1>#}
  </div>
      </body>{% endblock %}
     {#kkk#}
@@ -13,7 +13,7 @@
 {% block javascripts %}
     <script src="{{asset('assets/js/angular/order_controller.js')}}"></script>
     <script>
-        {#var data = {{ data|raw }};#}
+        var data = {{ data|raw }};
 //        console.log(data)
     </script>
 {% endblock %}

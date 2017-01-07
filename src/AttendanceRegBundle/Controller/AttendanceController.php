@@ -31,8 +31,9 @@ class AttendanceController extends Controller
 
     public function attendanceReportFormSubmitAction()
     {
+//        dump(new \DateTime('now'));exit;
         return $this->render('@AttendanceReg/Default/index.html.twig', array(
-            'title' => 1,
+            'data' => 77,
         ));
     }
 
