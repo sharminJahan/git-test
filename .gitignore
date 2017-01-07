@@ -11,4 +11,5 @@
 /bin/
 /composer.phar
 .idea/
+/web/assets/js/angular/bower_components
 
