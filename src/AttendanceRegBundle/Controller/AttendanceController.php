@@ -31,7 +31,9 @@ class AttendanceController extends Controller
 
     public function attendanceReportFormSubmitAction()
     {
-            dump('hello');exit;
+        return $this->render('@AttendanceReg/Default/index.html.twig', array(
+            'title' => 1,
+        ));
     }
 
 

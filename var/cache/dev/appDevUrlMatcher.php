@@ -106,7 +106,7 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return $this->redirect($pathinfo.'/', 'hr_homepage');
             }
 
-            return array (  '_controller' => 'AttendanceRegBundle\\Controller\\AttendanceController::attendanceReportFormSubmitAction',  '_route' => 'hr_homepage',);
+            return array (  '_controller' => 'HrBundle\\Controller\\DefaultController::indexAction',  '_route' => 'hr_homepage',);
         }
 
         // attendance_form_submit

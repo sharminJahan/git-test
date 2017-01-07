@@ -1,1 +1,18 @@
-Hello Sharmin
+{% extends '::base.html.twig' %}
+{% block angular_app %}ng-app="myApp"{% endblock %}
+
+{% block content %}
+    kkk
+<body ng-app="myApp">
+<div class="main" ng-controller="MainController">
+<h1>{{ title }}</h1>
+</div>
+</body>
+{% endblock %}
+{% block javascripts %}
+    <script src="{{asset('assets/js/angular/order_controller.js')}}"></script>
+    <script>
+        {#var data = {{ data|raw }};#}
+//        console.log(data)
+    </script>
+{% endblock %}

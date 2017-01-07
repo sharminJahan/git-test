@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angular-sanitize' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'angular-sanitize', null ]
+5 verbose cache add name=undefined spec="angular-sanitize" args=["angular-sanitize",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'angular-sanitize',
+6 verbose parsed url   path: 'angular-sanitize',
+6 verbose parsed url   href: 'angular-sanitize' }
+7 silly lockFile 6236b30c-angular-sanitize angular-sanitize
+8 verbose lock angular-sanitize /home/sharmin/.npm/6236b30c-angular-sanitize.lock
+9 silly lockFile 6236b30c-angular-sanitize angular-sanitize
+10 silly lockFile 6236b30c-angular-sanitize angular-sanitize
+11 verbose addNamed [ 'angular-sanitize', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d3afb05e-angular-sanitize angular-sanitize@
+14 verbose lock angular-sanitize@ /home/sharmin/.npm/d3afb05e-angular-sanitize.lock
+15 silly addNameRange { name: 'angular-sanitize', range: '*', hasData: false }
+16 verbose url raw angular-sanitize
+17 verbose url resolving [ 'https://registry.npmjs.org/', './angular-sanitize' ]
+18 verbose url resolved https://registry.npmjs.org/angular-sanitize
+19 info trying registry request attempt 1 at 14:46:45
+20 http GET https://registry.npmjs.org/angular-sanitize
+21 http 200 https://registry.npmjs.org/angular-sanitize
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"2I33MJKMF0Y13YVZ6N4MS1BKY"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '91800',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 08 Nov 2016 08:46:46 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1478594806.672380,VS0,VE210',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'angular-sanitize', range: '*', hasData: true }
+24 silly addNameRange versions [ 'angular-sanitize',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '1.3.0-rc.5',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.3.3',
+24 silly addNameRange     '1.3.4-build.3587',
+24 silly addNameRange     '1.2.27',
+24 silly addNameRange     '1.3.4',
+24 silly addNameRange     '1.3.5',
+24 silly addNameRange     '1.3.6',
+24 silly addNameRange     '1.3.7',
+24 silly addNameRange     '1.2.28',
+24 silly addNameRange     '1.3.8',
+24 silly addNameRange     '1.4.0-beta.0',
+24 silly addNameRange     '1.3.9',
+24 silly addNameRange     '1.3.10',
+24 silly addNameRange     '1.4.0-beta.1',
+24 silly addNameRange     '1.4.0-beta.2',
+24 silly addNameRange     '1.3.11',
+24 silly addNameRange     '1.4.0-beta.3',
+24 silly addNameRange     '1.3.12',
+24 silly addNameRange     '1.3.13',
+24 silly addNameRange     '1.4.0-beta.4',
+24 silly addNameRange     '1.3.14',
+24 silly addNameRange     '1.4.0-beta.5',
+24 silly addNameRange     '1.4.0-beta.6',
+24 silly addNameRange     '1.3.15',
+24 silly addNameRange     '1.4.0-rc.0',
+24 silly addNameRange     '1.4.0-rc.1',
+24 silly addNameRange     '1.4.0-rc.2',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.3.16',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.4.2',
+24 silly addNameRange     '1.3.17',
+24 silly addNameRange     '1.4.3',
+24 silly addNameRange     '1.4.4',
+24 silly addNameRange     '1.3.18',
+24 silly addNameRange     '1.4.5',
+24 silly addNameRange     '1.3.19',
+24 silly addNameRange     '1.4.6',
+24 silly addNameRange     '1.5.0-beta.0',
+24 silly addNameRange     '1.2.29',
+24 silly addNameRange     '1.3.20',
+24 silly addNameRange     '1.4.7',
+24 silly addNameRange     '1.5.0-beta.2',
+24 silly addNameRange     '1.4.8',
+24 silly addNameRange     '1.5.0-rc.0',
+24 silly addNameRange     '1.5.0-rc.1',
+24 silly addNameRange     '1.4.9',
+24 silly addNameRange     '1.5.0-rc.2',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.4.10',
+24 silly addNameRange     '1.5.2',
+24 silly addNameRange     '1.5.3',
+24 silly addNameRange     '1.5.5',
+24 silly addNameRange     '1.4.11',
+24 silly addNameRange     '1.5.6',
+24 silly addNameRange     '1.4.12',
+24 silly addNameRange     '1.5.7',
+24 silly addNameRange     '1.2.30',
+24 silly addNameRange     '1.5.8',
+24 silly addNameRange     '1.4.13',
+24 silly addNameRange     '1.2.31',
+24 silly addNameRange     '1.2.32',
+24 silly addNameRange     '1.4.14',
+24 silly addNameRange     '1.6.0-rc.0' ] ]
+25 verbose addNamed [ 'angular-sanitize', '1.5.8' ]
+26 verbose addNamed [ '1.5.8', '1.5.8' ]
+27 silly lockFile c5d87a2c-angular-sanitize-1-5-8 angular-sanitize@1.5.8
+28 verbose lock angular-sanitize@1.5.8 /home/sharmin/.npm/c5d87a2c-angular-sanitize-1-5-8.lock
+29 silly lockFile 590d9cfb-itize-angular-sanitize-1-5-8-tgz https://registry.npmjs.org/angular-sanitize/-/angular-sanitize-1.5.8.tgz
+30 verbose lock https://registry.npmjs.org/angular-sanitize/-/angular-sanitize-1.5.8.tgz /home/sharmin/.npm/590d9cfb-itize-angular-sanitize-1-5-8-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-sanitize/-/angular-sanitize-1.5.8.tgz',
+31 verbose addRemoteTarball   '1832f69487ee820a21cbe30055a8fb1bdf297ab8' ]
+32 silly lockFile 590d9cfb-itize-angular-sanitize-1-5-8-tgz https://registry.npmjs.org/angular-sanitize/-/angular-sanitize-1.5.8.tgz
+33 silly lockFile 590d9cfb-itize-angular-sanitize-1-5-8-tgz https://registry.npmjs.org/angular-sanitize/-/angular-sanitize-1.5.8.tgz
+34 silly lockFile c5d87a2c-angular-sanitize-1-5-8 angular-sanitize@1.5.8
+35 silly lockFile c5d87a2c-angular-sanitize-1-5-8 angular-sanitize@1.5.8
+36 silly lockFile d3afb05e-angular-sanitize angular-sanitize@
+37 silly lockFile d3afb05e-angular-sanitize angular-sanitize@
+38 error Error: EACCES, mkdir '/home/sharmin/tmp/npm-13717-8iAelpmc'
+38 error  { [Error: EACCES, mkdir '/home/sharmin/tmp/npm-13717-8iAelpmc']
+38 error   errno: 3,
+38 error   code: 'EACCES',
+38 error   path: '/home/sharmin/tmp/npm-13717-8iAelpmc' }
+39 error Please try running this command again as root/Administrator.
+40 error System Linux 3.16.0-77-generic
+41 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "angular-sanitize"
+42 error cwd /var/www/biznet/web/assets/js/angular/bower_components
+43 error node -v v0.10.25
+44 error npm -v 1.3.10
+45 error path /home/sharmin/tmp/npm-13717-8iAelpmc
+46 error code EACCES
+47 error errno 3
+48 error stack Error: EACCES, mkdir '/home/sharmin/tmp/npm-13717-8iAelpmc'
+49 verbose exit [ 3, true ]

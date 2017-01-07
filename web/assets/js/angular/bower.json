@@ -1,0 +1,36 @@
+{
+  "name": "productionplanning",
+  "authors": [
+    "sumaia <sumaia@eongroup.net.bd>"
+  ],
+  "description": "javascript",
+  "main": "base.html.twig",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "resource"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#^1.5.7",
+    "angular-route": "^1.5.8",
+    "angular-resource": "^1.5.7",
+    "ngstorage": "^0.3.10",
+    "angular-object-table": "^0.2.2",
+    "pdfmake": "^0.1.20",
+    "angular-pdf": "^1.3.0",
+    "html2canvas": "^0.4.1",
+    "angular-ui-tree": "^2.22.1",
+    "angular-bootstrap": "^2.2.0",
+    "angularUtils-pagination": "angular-utils-pagination#^0.11.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
