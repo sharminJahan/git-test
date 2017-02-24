@@ -31,9 +31,14 @@ class AttendanceController extends Controller
 
     public function attendanceReportFormSubmitAction()
     {
-//        dump(new \DateTime('now'));exit;//
+        $em = $this->getDoctrine()->getManager();
+        $transaction = array(
+            'a' => 'qwerty',
+            'b' => 'blob',
+        );
+
         return $this->render('@AttendanceReg/Default/index.html.twig', array(
-            'data' => 77,
+            'data' => json_encode($transaction),
         ));
     }
 

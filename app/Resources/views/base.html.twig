@@ -6,25 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     <title>Biznet | {% block title %}{% endblock %}</title>
-    <!-- Bootstrap core CSS -->
-    {#<link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"/>#}
-    {#<!-- Bootstrap theme -->#}
-    {#<link href="{{ asset('assets/bootstrap/css/bootstrap-theme.min.css') }}" rel="stylesheet"/>#}
-    {#<!-- Custom styles for this template -->#}
-    {#<link href="{{ asset('assets/css/bootstrap-datetimepicker.min.css') }}" rel="stylesheet" />#}
-    {#<link href="{{ asset('assets/css/bootstrap-switch.min.css') }}" rel="stylesheet" />#}
-    {#<link href="{{ asset('assets/css/chosen.min.css') }}" rel="stylesheet" />#}
-    {#<link href="{{ asset('assets/css/jquery-ui.css') }}" rel="stylesheet" />#}
-    {#<link href="{{ asset('assets/js/angular/bower_components/angular-object-table/build/object-table-style.css') }}" rel="stylesheet" />#}
-    {#<link href="{{ asset('assets/js/angular/bower_components/angular-ui-tree/dist/angular-ui-tree.min.css') }}" rel="stylesheet" >#}
-    {#<link href="{{ asset('assets/css/bootstrap-toggle.min.css') }}" rel="stylesheet">#}
-    {#<link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" >#}
-    {#<link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" />#}
-    {#<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css">#}
     {% block stylesheets %}{% endblock %}
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <![endif]-->
 </head>
 <body role="document">
 <!-- navbar start -->
@@ -59,31 +41,16 @@
     {% endblock %}
     {% block body %}{% endblock %}
 </div>
-<!-- javascript start -->
-{#<script src="{{ asset('assets/js/jquery_1.11.2.js') }}"></script>#}
-{#<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/moment-with-locales.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/bootstrap-datetimepicker.min.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/bootstrap-switch.min.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/chosen.jquery.min.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/jquery-ui.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/custom.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/html5shiv.min.js') }}"></script>#}
-{#<script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>#}
-<!--angular library add-->
 <script src="{{asset('assets/js/angular/bower_components/angular/angular.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/underscore/underscore.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angular-resource/angular-resource.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angular-route/angular-route.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angular-object-table/build/object-table.js')}}"></script>
-{#<script src="{{asset('assets/js/angular/bower_components/pdfmake/build/pdfmake.min.js')}}"></script>#}
 <script src="{{asset('assets/js/angular/bower_components/angular-pdf/dist/angular-pdf.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/html2canvas/build/html2canvas.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angular-ui-tree/dist/angular-ui-tree.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angular-bootstrap/ui-bootstrap-tpls.js')}}"></script>
 <script src="{{asset('assets/js/angular/bower_components/angularUtils-pagination/dirPagination.js')}}"></script>
-{#<script src="{{asset('assets/js/angular/bower_components/angular-options-disabled/src/angular-options-disabled.js')}}"></script>#}
-{#<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>#}
 {% block javascripts %}{% endblock %}
 </body>
 </html>
